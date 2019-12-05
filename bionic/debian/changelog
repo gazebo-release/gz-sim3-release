@@ -1,3 +1,9 @@
+ignition-gazebo3 (3.0.0~pre2-2~bionic) bionic; urgency=medium
+
+  * ignition-gazebo3 3.0.0~pre2-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 05 Dec 2019 16:15:23 +0100
+
 ignition-gazebo3 (3.0.0~pre2-1~bionic) bionic; urgency=medium
 
   * ignition-gazebo3 3.0.0~pre2-1 release
