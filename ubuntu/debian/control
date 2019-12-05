@@ -28,20 +28,6 @@ Vcs-Browser: https://github.com/ignition-release/ign-gazebo3-release
 Vcs-Hg: https://github.com/ignition-release/ign-gazebo3-release
 Homepage: http://ignitionrobotics.org/
 
-Package: ignition-gazebo3
-Architecture: any
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-         qml-module-qtqml-models2,
-         libignition-gazebo3-plugins (= ${binary:Version}),
-         libignition-gazebo3 (= ${binary:Version})
-Multi-Arch: foreign
-Description: Ignition Gazebo classes and functions for robot apps - Binaries
-  Ignition Gazebo is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Binaries and apps
-
 Package: libignition-gazebo3
 Architecture: any
 Section: libs
