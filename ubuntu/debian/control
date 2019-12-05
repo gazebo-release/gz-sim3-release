@@ -1,4 +1,4 @@
-Source: ignition-gazebo2
+Source: ignition-gazebo3
 Standards-Version: 3.9.8
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -7,35 +7,34 @@ Build-Depends: cmake,
                doxygen,
                pkg-config,
                debhelper (>= 9),
-               libgflags-dev,
                libtinyxml2-dev,
                libignition-tools-dev,
                libignition-cmake2-dev,
                libignition-common3-av-dev,
                libignition-common3-profiler-dev,
                libignition-common3-events-dev,
-               libignition-fuel-tools3-dev,
-               libignition-gui2-dev,
+               libignition-fuel-tools4-dev,
+               libignition-gui5-dev,
                libignition-math6-dev,
                libignition-math6-eigen3-dev,
-               libignition-msgs4-dev,
+               libignition-msgs5-dev,
                libignition-plugin-dev,
-               libignition-physics-dev,
-               libignition-sensors2-dev,
-               libignition-rendering2-dev,
-               libignition-transport7-log-dev,
-               libsdformat8-dev
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-gazebo-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-gazebo-release
+               libignition-physics2-dev,
+               libignition-sensors3-dev,
+               libignition-rendering3-dev,
+               libignition-transport8-log-dev,
+               libsdformat9-dev
+Vcs-Browser: https://github.com/ignition-release/ign-gazebo3-release
+Vcs-Hg: https://github.com/ignition-release/ign-gazebo3-release
 Homepage: http://ignitionrobotics.org/
 
-Package: ignition-gazebo2
+Package: ignition-gazebo3
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          qml-module-qtqml-models2,
-         libignition-gazebo2-plugins (= ${binary:Version}),
-         libignition-gazebo2 (= ${binary:Version})
+         libignition-gazebo3-plugins (= ${binary:Version}),
+         libignition-gazebo3 (= ${binary:Version})
 Multi-Arch: foreign
 Description: Ignition Gazebo classes and functions for robot apps - Binaries
   Ignition Gazebo is a component in the ignition framework, a set of libraries
@@ -43,7 +42,7 @@ Description: Ignition Gazebo classes and functions for robot apps - Binaries
   .
   Binaries and apps
 
-Package: libignition-gazebo2
+Package: libignition-gazebo3
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -55,7 +54,7 @@ Description: Ignition Gazebo classes and functions for robot apps - Shared libra
   .
   Main shared library
 
-Package: libignition-gazebo2-plugins
+Package: libignition-gazebo3-plugins
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -67,29 +66,28 @@ Description: Ignition Gazebo classes and functions for robot apps - Plugins
   .
   Plugins collection
 
-Package: libignition-gazebo2-dev
+Package: libignition-gazebo3-dev
 Architecture: any
 Section: libdevel
-Depends: libgflags-dev,
-         libtinyxml2-dev,
+Depends: libtinyxml2-dev,
          libignition-tools-dev,
          libignition-cmake2-dev,
          libignition-common3-av-dev,
          libignition-common3-profiler-dev,
          libignition-common3-events-dev,
-         libignition-fuel-tools3-dev,
-         libignition-gui2-dev,
+         libignition-fuel-tools4-dev,
+         libignition-gui3-dev,
          libignition-math6-dev,
          libignition-math6-eigen3-dev,
-         libignition-msgs4-dev,
+         libignition-msgs5-dev,
          libignition-plugin-dev,
-         libignition-physics-dev,
-         libignition-sensors2-dev,
-         libignition-rendering2-dev,
-         libignition-transport7-log-dev,
-         libsdformat8-dev,
-         libignition-gazebo2 (= ${binary:Version}),
-         libignition-gazebo2-plugins (= ${binary:Version}),
+         libignition-physics2-dev,
+         libignition-sensors3-dev,
+         libignition-rendering3-dev,
+         libignition-transport8-log-dev,
+         libsdformat9-dev,
+         libignition-gazebo3 (= ${binary:Version}),
+         libignition-gazebo3-plugins (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Gazebo classes and functions for robot apps - Development files
@@ -98,12 +96,12 @@ Description: Ignition Gazebo classes and functions for robot apps - Development 
   .
   Development files
 
-Package: libignition-gazebo2-dbg
+Package: libignition-gazebo3-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libignition-gazebo2 (= ${binary:Version}),
+     libignition-gazebo3 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Gazebo classes and functions for robot apps - Debug symbols
