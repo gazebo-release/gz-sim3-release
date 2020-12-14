@@ -73,7 +73,7 @@ Depends: libtinyxml2-dev,
          libignition-sensors3-dev,
          libignition-rendering3-dev (>= 3.2.0),
          libignition-transport8-log-dev,
-         libsdformat9-dev (>= 9.2.0),
+         libsdformat9-dev (>= 9.3.0),
          libignition-gazebo3 (= ${binary:Version}),
          libignition-gazebo3-plugins (= ${binary:Version}),
          ${misc:Depends}
