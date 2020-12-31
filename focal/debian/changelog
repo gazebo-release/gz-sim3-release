@@ -1,3 +1,9 @@
+ignition-gazebo3 (3.6.0-1~focal) focal; urgency=medium
+
+  * ignition-gazebo3 3.6.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 30 Dec 2020 18:26:57 -0800
+
 ignition-gazebo3 (3.5.0-1~focal) focal; urgency=medium
 
   * ignition-gazebo3 3.5.0-1 release
