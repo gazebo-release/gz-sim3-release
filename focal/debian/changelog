@@ -1,6 +1,6 @@
-ignition-gazebo3 (3.9.0-1~pre1~focal) focal; urgency=medium
+ignition-gazebo3 (3.9.0~pre1-1~focal) focal; urgency=medium
 
-  * ignition-gazebo3 3.9.0-1~pre1 release
+  * ignition-gazebo3 3.9.0~pre1-1 release
 
  -- Louise Poubel <louise@openrobotics.org>  Fri, 23 Jul 2021 18:18:25 -0700
 
