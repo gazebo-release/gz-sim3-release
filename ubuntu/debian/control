@@ -24,7 +24,6 @@ Build-Depends: cmake,
                libignition-rendering3-dev (>= 3.5.0),
                libignition-transport8-log-dev,
                libsdformat9-dev (>= 9.6.0)
-
 Vcs-Browser: https://github.com/ignition-release/ign-gazebo3-release
 Vcs-Hg: https://github.com/ignition-release/ign-gazebo3-release
 Homepage: http://ignitionrobotics.org/
