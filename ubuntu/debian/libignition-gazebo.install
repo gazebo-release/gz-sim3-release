@@ -3,4 +3,4 @@ usr/share/ignition/ignition-gazebo[0-99]/*.config
 usr/share/ignition/ignition-gazebo[0-99]/gui/*
 usr/share/ignition/ignition-gazebo[0-99]/worlds/*
 tools/desktop/ignition-gazebo.svg usr/share/icons/hicolor/scalable/apps/
-ignition-gazebo[0-99].desktop usr/share/applications/
+obj-${DEB_TARGET_GNU_TYPE}/ignition-gazebo[0-99].desktop usr/share/applications/
