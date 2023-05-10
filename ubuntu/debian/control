@@ -37,10 +37,10 @@ Depends: ${shlibs:Depends},
          qml-module-qtqml-models2
 Multi-Arch: same
 Description: Gazebo Sim classes and functions for robot apps - Shared library
-  Gazebo Sim is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Main shared library
+ Gazebo Sim is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Main shared library
 
 Package: libignition-gazebo3-plugins
 Architecture: any
@@ -49,10 +49,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Sim classes and functions for robot apps - Plugins
-  Gazebo Sim is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Plugins collection
+ Gazebo Sim is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Plugins collection
 
 Package: libignition-gazebo3-dev
 Architecture: any
@@ -79,10 +79,10 @@ Depends: libtinyxml2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Sim classes and functions for robot apps - Development files
-  Gazebo Sim is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Development files
+ Gazebo Sim is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Development files
 
 Package: libignition-gazebo3-dbg
 Architecture: any
@@ -93,10 +93,10 @@ Depends:
      ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Sim classes and functions for robot apps - Debug symbols
-  Gazebo Sim is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Debug symbols
+ Gazebo Sim is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Debug symbols
 
 Package: libgz-sim3
 Depends: libignition-gazebo3, ${misc:Depends}
