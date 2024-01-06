@@ -1,3 +1,9 @@
+ignition-gazebo3 (3.15.1-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo3 3.15.1-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 05 Jan 2024 18:59:31 -0600
+
 ignition-gazebo3 (3.15.0-1~bionic) bionic; urgency=medium
 
   * ignition-gazebo3 3.15.0-1 release
